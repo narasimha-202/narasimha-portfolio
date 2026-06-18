@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Narasimha Sunkara | Portfolio</title>
+
+  <!-- Google Font -->
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <!-- Progress Bar -->
+
+  <div id="progressBar"></div>
+
+  <!-- Cursor -->
+
+  <div class="cursor"></div>
+
+  <!-- Dark Mode Button -->
+
+  <button class="theme-btn" onclick="toggleTheme()">
+    🌙
+  </button>
+
+  <!-- Hamburger -->
+
+  <div class="hamburger" onclick="toggleMenu()">
+
+    <div></div>
+    <div></div>
+    <div></div>
+
+  </div>
+
+  <!-- Overlay -->
+
+  <div
+    class="overlay"
+    id="overlay"
+    onclick="closeMenu()"
+  ></div>
+
+  <!-- Sidebar -->
+
+  <nav class="nav-bar" id="sidebar">
+
+    <h2 class="logo">Portfolio</h2>
+
+    <ul>
+
+      <li>
+        <a href="#home" onclick="closeMenu()">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="#about" onclick="closeMenu()">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="#skills" onclick="closeMenu()">
+          Skills
+        </a>
+      </li>
+
+      <li>
+        <a href="#projects" onclick="closeMenu()">
+          Projects
+        </a>
+      </li>
+
+      <li>
+        <a href="#education" onclick="closeMenu()">
+          Education
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact" onclick="closeMenu()">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <!-- Main -->
+
+  <main class="main">
+
+    <!-- Home -->
+
+    <section id="home" class="section home">
+
+      <h1>
+        Hi, I’m
+        <span class="typing"></span>
+      </h1>
+
+      <p>
+        B.Tech CSE (AI & ML) student passionate about
+        software development, web technologies,
+        and problem solving.
+      </p>
+
+      <div class="btns">
+
+        <a
+          class="btn primary"
+          href="Resume Narasimha Sunkara.pdf"
+          download
+        >
+          Download Resume
+        </a>
+
+        <a
+          class="btn outline"
+          href="#projects"
+        >
+          Projects
+        </a>
+
+        <a
+          class="btn outline"
+          href="#contact"
+        >
+          Contact
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about" class="section">
+
+      <h2>About Me</h2>
+
+      <div class="about-box">
+
+        <div class="profile">
+
+          <img
+            src="DEV_0252.JPG"
+            alt="Profile Image"
+          />
+
+        </div>
+
+        <div class="about-text">
+
+          <p>
+            I am a Computer Science Engineering undergraduate
+            specializing in Artificial Intelligence and
+            Machine Learning at Lakireddy Bali Reddy College
+            of Engineering.
+
+            I enjoy building responsive websites,
+            learning programming languages,
+            and solving coding problems.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills" class="section">
+
+      <h2>Skills</h2>
+
+      <div class="skill-box">
+
+        <p>HTML</p>
+
+        <div class="bar">
+          <div class="fill html"></div>
+        </div>
+
+        <p>CSS</p>
+
+        <div class="bar">
+          <div class="fill css"></div>
+        </div>
+
+        <p>JavaScript</p>
+
+        <div class="bar">
+          <div class="fill js"></div>
+        </div>
+
+        <p>C Programming</p>
+
+        <div class="bar">
+          <div class="fill c"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+   <section id="projects" class="section">
+
+  <h2>Projects</h2>
+
+  <div class="projects">
+
+    <!-- Portfolio -->
+    <div class="card">
+      <h3>Portfolio Website</h3>
+
+      <div class="tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+
+      <p>
+        Designed and developed a responsive personal portfolio website
+        showcasing projects, skills, education, and contact information.
+      </p>
+
+      <a href="/index.html" target="_blank">
+        View Project →
+      </a>
+    </div>
+
+    <!-- Spam Detection -->
+    <div class="card">
+      <h3>SpamShield: Spam Email Detection</h3>
+
+      <div class="tags">
+        <span>Python</span>
+        <span>NLP</span>
+        <span>Machine Learning</span>
+      </div>
+
+      <p>
+        Built an NLP-based machine learning model to classify emails as
+        Spam or Ham with preprocessing, feature extraction, and evaluation.
+      </p>
+
+      <a href="https://github.com/Narasimha35/Codec-Technology-Tasks/tree/main/Spam%20Email%20Analysis" target="_blank">
+        View Project →
+      </a>
+    </div>
+
+    <!-- Twitter Sentiment -->
+    <div class="card">
+      <h3>Twitter Sentiment Analysis</h3>
+
+      <div class="tags">
+        <span>Python</span>
+        <span>NLP</span>
+        <span>TF-IDF</span>
+      </div>
+
+      <p>
+        Developed a sentiment analysis system using Logistic Regression and
+        TF-IDF vectorization achieving around 75% accuracy.
+      </p>
+
+      <a href="https://github.com/Narasimha35/Codec-Technology-Tasks/tree/main/Twitter-sentiment-Analysis" target="_blank">
+        View Project →
+      </a>
+    </div>
+
+    <!-- Fraud Detection -->
+    <div class="card">
+      <h3>💳 Credit Card Fraud Detection</h3>
+
+      <div class="tags">
+        <span>Python</span>
+        <span>XGBoost</span>
+        <span>Streamlit</span>
+      </div>
+
+      <p>
+        Developed an intelligent fraud detection system using XGBoost and
+        deployed it as a live web application.
+      </p>
+
+      <a href="https://narasimha-sunkara-credit-card-fraud-detection.hf.space/" target="_blank">
+        View Project →
+      </a>
+    </div>
+
+    <!-- Stopwatch -->
+    <div class="card">
+      <h3>Stop Watch</h3>
+
+      <div class="tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+
+      <p>
+        Responsive stopwatch application with start, pause, reset,
+        and lap tracking functionality.
+      </p>
+
+      <a href="stop-watch/stop.html" target="_blank">
+        View Project →
+      </a>
+    </div>
+
+    <!-- Tic Tac Toe -->
+    <div class="card">
+      <h3>Tic Tac Toe Game</h3>
+
+      <div class="tags">
+        <span>JavaScript</span>
+        <span>Game Logic</span>
+        <span>UI Design</span>
+      </div>
+
+      <p>
+        Interactive Tic Tac Toe game featuring win detection,
+        draw handling, restart functionality, and responsive design.
+      </p>
+
+      <a href="tic-tac-toe/index.html" target="_blank">
+        View Project →
+      </a>
+    </div>
+
+  </div>
+
+</section>
+    <!-- Education -->
+
+    <section id="education" class="section">
+
+      <h2>Education</h2>
+
+      <div class="edu">
+
+        <h3>
+          Lakireddy Bali Reddy College of Engineering
+        </h3>
+
+        <br />
+
+        <p>
+          B.Tech CSE (AI & ML)
+          | 2024 - 2028<BR>
+          C.GPA-8.71
+        </p>
+
+        <br />
+
+        <h3>
+          Narayana Junior College
+        </h3>
+
+        <br />
+
+        <p>
+          MPC | 2022 - 2024<BR>
+          PERCENTAGE-93.6
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="section">
+
+      <h2>Contact</h2>
+
+      <div class="contact">
+
+        <p>
+          <b>Email:</b>
+          narasimhasunkara35@gmail.com
+        </p>
+
+        <p>
+
+          <b>LinkedIn:</b>
+
+          <a
+            href="https://www.linkedin.com/in/narasimha-sunkara-96257b371/"
+            target="_blank"
+          >
+            View Profile
+          </a>
+
+        </p>
+
+        <p>
+
+          <b>GitHub:</b>
+
+          <a
+            href="https://github.com/Narasimha35"
+            target="_blank"
+          >
+            View GitHub
+          </a>
+
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+      <p>
+        © 2026 Narasimha.
+        All Rights Reserved.
+      </p>
+
+    </footer>
+
+  </main>
+
+  <!-- JavaScript -->
+
+  <script>
+
+    // Sidebar
+
+    function toggleMenu() {
+
+      document
+        .getElementById("sidebar")
+        .classList.toggle("active");
+
+      document
+        .getElementById("overlay")
+        .classList.toggle("active");
+
+    }
+
+    function closeMenu() {
+
+      document
+        .getElementById("sidebar")
+        .classList.remove("active");
+
+      document
+        .getElementById("overlay")
+        .classList.remove("active");
+
+    }
+
+    // Typing Effect
+
+    const text = "Narasimha Sunkara 👋";
+
+    let index = 0;
+
+    function typeEffect() {
+
+      document.querySelector(".typing").textContent +=
+        text.charAt(index);
+
+      index++;
+
+      if(index < text.length) {
+        setTimeout(typeEffect, 120);
+      }
+
+    }
+
+    typeEffect();
+
+    // Active Navbar
+
+    const sections =
+      document.querySelectorAll("section");
+
+    const navLinks =
+      document.querySelectorAll(".nav-bar ul li a");
+
+    window.addEventListener("scroll", () => {
+
+      let current = "";
+
+      sections.forEach((section) => {
+
+        const sectionTop = section.offsetTop;
+
+        if(pageYOffset >= sectionTop - 150) {
+          current = section.getAttribute("id");
+        }
+
+      });
+
+      navLinks.forEach((link) => {
+
+        link.classList.remove("active");
+
+        if(link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+
+      });
+
+    });
+
+    // Dark Mode
+
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+
+    // Progress Bar
+
+    window.onscroll = () => {
+
+      let winScroll =
+        document.body.scrollTop ||
+        document.documentElement.scrollTop;
+
+      let height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+
+      let scrolled = (winScroll / height) * 100;
+
+      document.getElementById("progressBar")
+        .style.width = scrolled + "%";
+
+    };
+
+    // Cursor Effect
+
+    const cursor =
+      document.querySelector(".cursor");
+
+    document.addEventListener("mousemove", (e) => {
+
+      cursor.style.left = e.pageX + "px";
+
+      cursor.style.top = e.pageY + "px";
+
+    });
+
+  </script>
+
+</body>
+
+</html>
