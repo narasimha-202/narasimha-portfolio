@@ -378,6 +378,27 @@ body {
   width: 80%;
   background: #4caf50;
 }
+.machine {
+  width: 80%;
+  background: #4caf50;
+}
+.AI {
+  width: 80%;
+  background: #4caf50;
+}
+.java {
+  width: 75%;
+  background: #ffc107;
+}
+.ds {
+  width: 85%;
+  background: #2196f3;
+}
+.python {
+  width: 90%;
+  background: #ff5722;
+}
+
 
 @keyframes fillAnim {
 
